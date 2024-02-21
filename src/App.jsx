@@ -13,7 +13,7 @@ const ComponentByRoles = {
 const getUserRole = (params) => ComponentByRoles[params] || ComponentByRoles['guest']
 
 function App() {
-  const [role, setRole] = useState('admin')
+  const [role, setRole] = useState('undefined')
   const CurrentUser = getUserRole(role)
 
   return (

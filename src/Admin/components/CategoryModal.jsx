@@ -186,6 +186,6 @@ export default CategoryModal;
 //             </Modal>
 //         </>
 //     );
-// }
+//  }
 
 // export default CategoryModal;
