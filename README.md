@@ -1,26 +1,12 @@
-# React E-Commerce Web
+<<<<<<< HEAD
+# React + Vite
 
-## Description
-[Add a brief description of your project here]
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+Currently, two official plugins are available:
 
-## Installation
-[Provide instructions on how to install and set up your project]
-
-## Usage
-[Explain how to use your project]
-
-## Features
-[List the features of your project]
-
-## Contributing
-[Provide guidelines for contributing to your project]
-
-## License
-[Include information about the license for your project]
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+=======
+# react-e-commerce-web
+>>>>>>> c341b77733b5880ec6b050d28870e9d02dad935e

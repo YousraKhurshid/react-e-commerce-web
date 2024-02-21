@@ -1,0 +1,94 @@
+/* #b53567   
+purple
+#f7a11c
+#facd18 
+gold light
+#facd18
+#b12033
+purple dark */
+
+
+
+.Home {
+    text-align: center;
+    padding: 5rem;
+    background-color: #fffbfb;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .home-image {
+    width: 90%;
+    max-width: 140rem;
+    border-radius: 1rem;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #b12033;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 3rem;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    font-size: 1em;
+    background-color: #facd18 ;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: padding 0.3s ease-in-out; 
+  }
+  
+  .button:hover {
+    padding: 1rem 3rem;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 630px) {
+    .text-content {
+      top: 25%; /* Adjusted top position for better centering on smaller screens */
+      text-align: center;
+      font-size: 1rem;
+    }
+  
+    h1 {
+      font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+  
+    p {
+      font-size: 0.8em; /* Adjusted font size for smaller screens */
+      margin-bottom: 1rem; /* Reduced margin for better spacing on smaller screens */
+    }
+  
+    button {
+      padding: 0.1rem 0.1rem; /* Adjusted padding for smaller screens */
+      font-size: 0.9em; /* Adjusted font size for smaller screens */
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
